@@ -1,0 +1,624 @@
+2020-08-07 11:50:12,728 WARN  [SoapUI] Missing folder [/Users/arunpsajapuram/Documents/Workspace/Manipal API Testing/ManipalSoapProject/SoapUIProject/ext] for external libraries
+2020-08-07 11:50:12,921 INFO  [DefaultSoapUICore] initialized soapui-settings from [/Users/arunpsajapuram/soapui-settings.xml]
+2020-08-07 11:50:14,183 INFO  [WsdlProject] Loaded project from [file:/Users/arunpsajapuram/Documents/Workspace/Manipal%20API%20Testing/ManipalSoapProject/SoapUIProject/Test-soapui-project.xml]
+2020-08-07 11:50:14,855 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [SalesOrderProject]
+2020-08-07 11:50:14,857 INFO  [SoapUITestCaseRunner] Running Project [SalesOrderProject], runType = SEQUENTIAL
+2020-08-07 11:50:14,871 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - PropertyTransfer]
+2020-08-07 11:50:14,889 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:14,970 INFO  [SoapUITestCaseRunner] running step [Property Transfer - CreateOrder]
+2020-08-07 11:50:15,221 INFO  [SoapUITestCaseRunner] running step [CreateOrder]
+2020-08-07 11:50:16,960 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:16,961 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - PropertyTransfer], time taken: 2049ms, status: FINISHED
+2020-08-07 11:50:16,963 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - PropertyExpansion]
+2020-08-07 11:50:16,963 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:16,964 INFO  [SoapUITestCaseRunner] running step [CreateOrder]
+2020-08-07 11:50:17,966 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:17,967 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - PropertyExpansion], time taken: 1002ms, status: FINISHED
+2020-08-07 11:50:17,968 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - Property&Groovy]
+2020-08-07 11:50:17,968 INFO  [SoapUITestCaseRunner] running step [Groovy Script - Transfer]
+2020-08-07 11:50:18,381 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:18,381 INFO  [SoapUITestCaseRunner] running step [CreateOrder]
+2020-08-07 11:50:20,099 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:20,100 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - Property&Groovy], time taken: 2129ms, status: FINISHED
+2020-08-07 11:50:20,101 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - PropertyTransfer]
+2020-08-07 11:50:20,106 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:20,106 INFO  [SoapUITestCaseRunner] running step [Property Transfer - GetDetailsByID]
+2020-08-07 11:50:20,110 INFO  [SoapUITestCaseRunner] running step [GetDetailsByID]
+2020-08-07 11:50:21,130 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:21,130 INFO  [SoapUITestCaseRunner] running step [Property Transfer - GetDetailsByOrderID]
+2020-08-07 11:50:21,143 INFO  [SoapUITestCaseRunner] running step [GetDetailsByOrderID]
+2020-08-07 11:50:22,251 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:22,251 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - PropertyTransfer], time taken: 2143ms, status: FINISHED
+2020-08-07 11:50:22,252 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - PropertyExpansion]
+2020-08-07 11:50:22,253 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:22,254 INFO  [SoapUITestCaseRunner] running step [GetDetailsByID]
+2020-08-07 11:50:23,149 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:23,149 INFO  [SoapUITestCaseRunner] running step [GetDetailsByOrderID]
+2020-08-07 11:50:24,139 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:24,140 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - PropertyExpansion], time taken: 1883ms, status: FINISHED
+2020-08-07 11:50:24,141 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - Property&Groovy]
+2020-08-07 11:50:24,142 INFO  [SoapUITestCaseRunner] running step [Groovy Script - TransferProperty]
+2020-08-07 11:50:24,159 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:24,159 INFO  [SoapUITestCaseRunner] running step [GetDetailsByID]
+2020-08-07 11:50:25,133 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:25,134 INFO  [SoapUITestCaseRunner] running step [Groovy Script - TransferGetDetailsByOrderID]
+2020-08-07 11:50:25,185 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1">
+   <env:Body>
+      <ns1:salesOrderRepositoryV1GetResponse>
+         <result>
+            <baseCurrencyCode>INR</baseCurrencyCode>
+            <baseDiscountAmount>0</baseDiscountAmount>
+            <baseDiscountCanceled>0</baseDiscountCanceled>
+            <baseGrandTotal>105</baseGrandTotal>
+            <baseDiscountTaxCompensationAmount>0</baseDiscountTaxCompensationAmount>
+            <baseShippingAmount>5</baseShippingAmount>
+            <baseShippingCanceled>5</baseShippingCanceled>
+            <baseShippingDiscountAmount>0</baseShippingDiscountAmount>
+            <baseShippingDiscountTaxCompensationAmnt>0</baseShippingDiscountTaxCompensationAmnt>
+            <baseShippingInclTax>5</baseShippingInclTax>
+            <baseShippingTaxAmount>0</baseShippingTaxAmount>
+            <baseSubtotal>100</baseSubtotal>
+            <baseSubtotalCanceled>100</baseSubtotalCanceled>
+            <baseSubtotalInclTax>100</baseSubtotalInclTax>
+            <baseTaxAmount>0</baseTaxAmount>
+            <baseTaxCanceled>0</baseTaxCanceled>
+            <baseTotalCanceled>105</baseTotalCanceled>
+            <baseTotalDue>105</baseTotalDue>
+            <baseToGlobalRate>1</baseToGlobalRate>
+            <baseToOrderRate>1</baseToOrderRate>
+            <billingAddressId>2</billingAddressId>
+            <createdAt>2019-11-08 12:39:44</createdAt>
+            <customerDob>1994-05-19 00:00:00</customerDob>
+            <customerEmail>mohankrishna176@gmail.com</customerEmail>
+            <customerFirstname>Krishna</customerFirstname>
+            <customerGender>1</customerGender>
+            <customerGroupId>1</customerGroupId>
+            <customerIsGuest>0</customerIsGuest>
+            <customerLastname>Mohan</customerLastname>
+            <customerNoteNotify>1</customerNoteNotify>
+            <discountAmount>0</discountAmount>
+            <discountCanceled>0</discountCanceled>
+            <entityId>1</entityId>
+            <globalCurrencyCode>INR</globalCurrencyCode>
+            <grandTotal>105</grandTotal>
+            <discountTaxCompensationAmount>0</discountTaxCompensationAmount>
+            <incrementId>000000079</incrementId>
+            <isVirtual>0</isVirtual>
+            <orderCurrencyCode>INR</orderCurrencyCode>
+            <protectCode>92b0968e6f6557f8cf4f02318ba88274</protectCode>
+            <quoteId>7</quoteId>
+            <shippingAmount>5</shippingAmount>
+            <shippingCanceled>5</shippingCanceled>
+            <shippingDescription>Flat Rate - Fixed</shippingDescription>
+            <shippingDiscountAmount>0</shippingDiscountAmount>
+            <shippingDiscountTaxCompensationAmount>0</shippingDiscountTaxCompensationAmount>
+            <shippingInclTax>5</shippingInclTax>
+            <shippingTaxAmount>0</shippingTaxAmount>
+            <state>canceled</state>
+            <status>canceled</status>
+            <storeCurrencyCode>INR</storeCurrencyCode>
+            <storeId>1</storeId>
+            <storeName>Main Website
+Main Website Store
+Default Store View</storeName>
+            <storeToBaseRate>0</storeToBaseRate>
+            <storeToOrderRate>0</storeToOrderRate>
+            <subtotal>100</subtotal>
+            <subtotalCanceled>100</subtotalCanceled>
+            <subtotalInclTax>100</subtotalInclTax>
+            <taxAmount>0</taxAmount>
+            <taxCanceled>0</taxCanceled>
+            <totalCanceled>105</totalCanceled>
+            <totalDue>105</totalDue>
+            <totalItemCount>1</totalItemCount>
+            <totalQtyOrdered>1</totalQtyOrdered>
+            <updatedAt>2019-11-28 10:57:03</updatedAt>
+            <weight>0</weight>
+            <items>
+               <item>
+                  <amountRefunded>0</amountRefunded>
+                  <baseAmountRefunded>0</baseAmountRefunded>
+                  <baseDiscountAmount>0</baseDiscountAmount>
+                  <baseDiscountInvoiced>0</baseDiscountInvoiced>
+                  <baseDiscountTaxCompensationAmount>0</baseDiscountTaxCompensationAmount>
+                  <baseOriginalPrice>100</baseOriginalPrice>
+                  <basePrice>100</basePrice>
+                  <basePriceInclTax>100</basePriceInclTax>
+                  <baseRowInvoiced>0</baseRowInvoiced>
+                  <baseRowTotal>100</baseRowTotal>
+                  <baseRowTotalInclTax>100</baseRowTotalInclTax>
+                  <baseTaxAmount>0</baseTaxAmount>
+                  <baseTaxInvoiced>0</baseTaxInvoiced>
+                  <createdAt>2019-11-08 12:39:44</createdAt>
+                  <discountAmount>0</discountAmount>
+                  <discountInvoiced>0</discountInvoiced>
+                  <discountPercent>0</discountPercent>
+                  <freeShipping>0</freeShipping>
+                  <discountTaxCompensationAmount>0</discountTaxCompensationAmount>
+                  <discountTaxCompensationCanceled>0</discountTaxCompensationCanceled>
+                  <isQtyDecimal>0</isQtyDecimal>
+                  <isVirtual>0</isVirtual>
+                  <itemId>1</itemId>
+                  <name>MacBook Air</name>
+                  <noDiscount>0</noDiscount>
+                  <orderId>1</orderId>
+                  <originalPrice>100</originalPrice>
+                  <price>100</price>
+                  <priceInclTax>100</priceInclTax>
+                  <productId>5</productId>
+                  <productType>simple</productType>
+                  <qtyCanceled>1</qtyCanceled>
+                  <qtyInvoiced>0</qtyInvoiced>
+                  <qtyOrdered>1</qtyOrdered>
+                  <qtyRefunded>0</qtyRefunded>
+                  <qtyShipped>0</qtyShipped>
+                  <quoteItemId>3</quoteItemId>
+                  <rowInvoiced>0</rowInvoiced>
+                  <rowTotal>100</rowTotal>
+                  <rowTotalInclTax>100</rowTotalInclTax>
+                  <rowWeight>0</rowWeight>
+                  <sku>SKU00001</sku>
+                  <storeId>1</storeId>
+                  <taxAmount>0</taxAmount>
+                  <taxCanceled>0</taxCanceled>
+                  <taxInvoiced>0</taxInvoiced>
+                  <taxPercent>0</taxPercent>
+                  <updatedAt>2019-11-24 10:32:56</updatedAt>
+               </item>
+            </items>
+            <billingAddress>
+               <addressType>billing</addressType>
+               <city>Bengaluru</city>
+               <countryId>IN</countryId>
+               <customerAddressId>3</customerAddressId>
+               <email>mohankrishna176@gmail.com</email>
+               <entityId>2</entityId>
+               <firstname>Krishna</firstname>
+               <lastname>Mohan</lastname>
+               <parentId>1</parentId>
+               <postcode>560023</postcode>
+               <region>Karnataka</region>
+               <regionCode>KA</regionCode>
+               <regionId>549</regionId>
+               <street>
+                  <item>#55, 1 st Main Road</item>
+               </street>
+               <telephone>+91 9876543210</telephone>
+            </billingAddress>
+            <payment>
+               <accountStatus/>
+               <additionalInformation>
+                  <item>Check / Money order</item>
+               </additionalInformation>
+               <amountOrdered>105</amountOrdered>
+               <baseAmountOrdered>105</baseAmountOrdered>
+               <baseShippingAmount>5</baseShippingAmount>
+               <ccExpYear>0</ccExpYear>
+               <ccLast4/>
+               <ccSsStartMonth>0</ccSsStartMonth>
+               <ccSsStartYear>0</ccSsStartYear>
+               <entityId>1</entityId>
+               <method>checkmo</method>
+               <parentId>1</parentId>
+               <shippingAmount>5</shippingAmount>
+            </payment>
+            <statusHistories/>
+            <extensionAttributes>
+               <shippingAssignments>
+                  <item>
+                     <shipping>
+                        <address>
+                           <addressType>shipping</addressType>
+                           <city>Bengaluru</city>
+                           <countryId>IN</countryId>
+                           <email>mohankrishna176@gmail.com</email>
+                           <entityId>1</entityId>
+                           <firstname>Krishna</firstname>
+                           <lastname>Mohan</lastname>
+                           <parentId>1</parentId>
+                           <postcode>560023</postcode>
+                           <region>Karnataka</region>
+                           <regionCode>KA</regionCode>
+                           <regionId>549</regionId>
+                           <street>
+                              <item>#55, 1 st Main Road</item>
+                           </street>
+                           <telephone>+91 9876543210</telephone>
+                        </address>
+                        <method>flatrate_flatrate</method>
+                        <total>
+                           <baseShippingAmount>5</baseShippingAmount>
+                           <baseShippingCanceled>5</baseShippingCanceled>
+                           <baseShippingDiscountAmount>0</baseShippingDiscountAmount>
+                           <baseShippingDiscountTaxCompensationAmnt>0</baseShippingDiscountTaxCompensationAmnt>
+                           <baseShippingInclTax>5</baseShippingInclTax>
+                           <baseShippingTaxAmount>0</baseShippingTaxAmount>
+                           <shippingAmount>5</shippingAmount>
+                           <shippingCanceled>5</shippingCanceled>
+                           <shippingDiscountAmount>0</shippingDiscountAmount>
+                           <shippingDiscountTaxCompensationAmount>0</shippingDiscountTaxCompensationAmount>
+                           <shippingInclTax>5</shippingInclTax>
+                           <shippingTaxAmount>0</shippingTaxAmount>
+                        </total>
+                     </shipping>
+                     <items>
+                        <item>
+                           <amountRefunded>0</amountRefunded>
+                           <baseAmountRefunded>0</baseAmountRefunded>
+                           <baseDiscountAmount>0</baseDiscountAmount>
+                           <baseDiscountInvoiced>0</baseDiscountInvoiced>
+                           <baseDiscountTaxCompensationAmount>0</baseDiscountTaxCompensationAmount>
+                           <baseOriginalPrice>100</baseOriginalPrice>
+                           <basePrice>100</basePrice>
+                           <basePriceInclTax>100</basePriceInclTax>
+                           <baseRowInvoiced>0</baseRowInvoiced>
+                           <baseRowTotal>100</baseRowTotal>
+                           <baseRowTotalInclTax>100</baseRowTotalInclTax>
+                           <baseTaxAmount>0</baseTaxAmount>
+                           <baseTaxInvoiced>0</baseTaxInvoiced>
+                           <createdAt>2019-11-08 12:39:44</createdAt>
+                           <discountAmount>0</discountAmount>
+                           <discountInvoiced>0</discountInvoiced>
+                           <discountPercent>0</discountPercent>
+                           <freeShipping>0</freeShipping>
+                           <discountTaxCompensationAmount>0</discountTaxCompensationAmount>
+                           <discountTaxCompensationCanceled>0</discountTaxCompensationCanceled>
+                           <isQtyDecimal>0</isQtyDecimal>
+                           <isVirtual>0</isVirtual>
+                           <itemId>1</itemId>
+                           <name>MacBook Air</name>
+                           <noDiscount>0</noDiscount>
+                           <orderId>1</orderId>
+                           <originalPrice>100</originalPrice>
+                           <price>100</price>
+                           <priceInclTax>100</priceInclTax>
+                           <productId>5</productId>
+                           <productType>simple</productType>
+                           <qtyCanceled>1</qtyCanceled>
+                           <qtyInvoiced>0</qtyInvoiced>
+                           <qtyOrdered>1</qtyOrdered>
+                           <qtyRefunded>0</qtyRefunded>
+                           <qtyShipped>0</qtyShipped>
+                           <quoteItemId>3</quoteItemId>
+                           <rowInvoiced>0</rowInvoiced>
+                           <rowTotal>100</rowTotal>
+                           <rowTotalInclTax>100</rowTotalInclTax>
+                           <rowWeight>0</rowWeight>
+                           <sku>SKU00001</sku>
+                           <storeId>1</storeId>
+                           <taxAmount>0</taxAmount>
+                           <taxCanceled>0</taxCanceled>
+                           <taxInvoiced>0</taxInvoiced>
+                           <taxPercent>0</taxPercent>
+                           <updatedAt>2019-11-24 10:32:56</updatedAt>
+                        </item>
+                     </items>
+                  </item>
+               </shippingAssignments>
+               <paymentAdditionalInfo>
+                  <item>
+                     <key>method_title</key>
+                     <value>Check / Money order</value>
+                  </item>
+               </paymentAdditionalInfo>
+               <appliedTaxes/>
+               <itemAppliedTaxes/>
+            </extensionAttributes>
+         </result>
+      </ns1:salesOrderRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-08-07 11:50:25,202 INFO  [log] 1
+2020-08-07 11:50:25,203 INFO  [SoapUITestCaseRunner] running step [GetDetailsByOrderID]
+2020-08-07 11:50:26,157 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:26,158 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - Property&Groovy], time taken: 2009ms, status: FINISHED
+2020-08-07 11:50:26,159 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - PropertyTransfer]
+2020-08-07 11:50:26,163 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:26,163 INFO  [SoapUITestCaseRunner] running step [Property Transfer - GetDetailsByID]
+2020-08-07 11:50:26,166 INFO  [SoapUITestCaseRunner] running step [GetDetailsByID]
+2020-08-07 11:50:27,163 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:27,163 INFO  [SoapUITestCaseRunner] running step [Property Transfer - GetOrderStatus]
+2020-08-07 11:50:27,173 INFO  [SoapUITestCaseRunner] running step [GetOrderStatus]
+2020-08-07 11:50:28,205 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:28,205 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - PropertyTransfer], time taken: 2038ms, status: FINISHED
+2020-08-07 11:50:28,206 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - PropertyExpansion]
+2020-08-07 11:50:28,206 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:28,206 INFO  [SoapUITestCaseRunner] running step [GetDetailsByID]
+2020-08-07 11:50:29,109 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:29,109 INFO  [SoapUITestCaseRunner] running step [GetOrderStatus]
+2020-08-07 11:50:29,913 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:29,913 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - PropertyExpansion], time taken: 1705ms, status: FINISHED
+2020-08-07 11:50:29,915 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase - Property&Groovy]
+2020-08-07 11:50:29,915 INFO  [SoapUITestCaseRunner] running step [Groovy Script - Transfer]
+2020-08-07 11:50:29,929 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:29,929 INFO  [SoapUITestCaseRunner] running step [GetDetailsByID]
+2020-08-07 11:50:30,831 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:30,831 INFO  [SoapUITestCaseRunner] running step [Groovy Script - TransferGetOrderStatus]
+2020-08-07 11:50:30,856 INFO  [log] <env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://soap.upskills.in/soap/default?services=salesOrderRepositoryV1">
+   <env:Body>
+      <ns1:salesOrderRepositoryV1GetResponse>
+         <result>
+            <baseCurrencyCode>INR</baseCurrencyCode>
+            <baseDiscountAmount>0</baseDiscountAmount>
+            <baseDiscountCanceled>0</baseDiscountCanceled>
+            <baseGrandTotal>105</baseGrandTotal>
+            <baseDiscountTaxCompensationAmount>0</baseDiscountTaxCompensationAmount>
+            <baseShippingAmount>5</baseShippingAmount>
+            <baseShippingCanceled>5</baseShippingCanceled>
+            <baseShippingDiscountAmount>0</baseShippingDiscountAmount>
+            <baseShippingDiscountTaxCompensationAmnt>0</baseShippingDiscountTaxCompensationAmnt>
+            <baseShippingInclTax>5</baseShippingInclTax>
+            <baseShippingTaxAmount>0</baseShippingTaxAmount>
+            <baseSubtotal>100</baseSubtotal>
+            <baseSubtotalCanceled>100</baseSubtotalCanceled>
+            <baseSubtotalInclTax>100</baseSubtotalInclTax>
+            <baseTaxAmount>0</baseTaxAmount>
+            <baseTaxCanceled>0</baseTaxCanceled>
+            <baseTotalCanceled>105</baseTotalCanceled>
+            <baseTotalDue>105</baseTotalDue>
+            <baseToGlobalRate>1</baseToGlobalRate>
+            <baseToOrderRate>1</baseToOrderRate>
+            <billingAddressId>2</billingAddressId>
+            <createdAt>2019-11-08 12:39:44</createdAt>
+            <customerDob>1994-05-19 00:00:00</customerDob>
+            <customerEmail>mohankrishna176@gmail.com</customerEmail>
+            <customerFirstname>Krishna</customerFirstname>
+            <customerGender>1</customerGender>
+            <customerGroupId>1</customerGroupId>
+            <customerIsGuest>0</customerIsGuest>
+            <customerLastname>Mohan</customerLastname>
+            <customerNoteNotify>1</customerNoteNotify>
+            <discountAmount>0</discountAmount>
+            <discountCanceled>0</discountCanceled>
+            <entityId>1</entityId>
+            <globalCurrencyCode>INR</globalCurrencyCode>
+            <grandTotal>105</grandTotal>
+            <discountTaxCompensationAmount>0</discountTaxCompensationAmount>
+            <incrementId>000000079</incrementId>
+            <isVirtual>0</isVirtual>
+            <orderCurrencyCode>INR</orderCurrencyCode>
+            <protectCode>92b0968e6f6557f8cf4f02318ba88274</protectCode>
+            <quoteId>7</quoteId>
+            <shippingAmount>5</shippingAmount>
+            <shippingCanceled>5</shippingCanceled>
+            <shippingDescription>Flat Rate - Fixed</shippingDescription>
+            <shippingDiscountAmount>0</shippingDiscountAmount>
+            <shippingDiscountTaxCompensationAmount>0</shippingDiscountTaxCompensationAmount>
+            <shippingInclTax>5</shippingInclTax>
+            <shippingTaxAmount>0</shippingTaxAmount>
+            <state>canceled</state>
+            <status>canceled</status>
+            <storeCurrencyCode>INR</storeCurrencyCode>
+            <storeId>1</storeId>
+            <storeName>Main Website
+Main Website Store
+Default Store View</storeName>
+            <storeToBaseRate>0</storeToBaseRate>
+            <storeToOrderRate>0</storeToOrderRate>
+            <subtotal>100</subtotal>
+            <subtotalCanceled>100</subtotalCanceled>
+            <subtotalInclTax>100</subtotalInclTax>
+            <taxAmount>0</taxAmount>
+            <taxCanceled>0</taxCanceled>
+            <totalCanceled>105</totalCanceled>
+            <totalDue>105</totalDue>
+            <totalItemCount>1</totalItemCount>
+            <totalQtyOrdered>1</totalQtyOrdered>
+            <updatedAt>2019-11-28 10:57:03</updatedAt>
+            <weight>0</weight>
+            <items>
+               <item>
+                  <amountRefunded>0</amountRefunded>
+                  <baseAmountRefunded>0</baseAmountRefunded>
+                  <baseDiscountAmount>0</baseDiscountAmount>
+                  <baseDiscountInvoiced>0</baseDiscountInvoiced>
+                  <baseDiscountTaxCompensationAmount>0</baseDiscountTaxCompensationAmount>
+                  <baseOriginalPrice>100</baseOriginalPrice>
+                  <basePrice>100</basePrice>
+                  <basePriceInclTax>100</basePriceInclTax>
+                  <baseRowInvoiced>0</baseRowInvoiced>
+                  <baseRowTotal>100</baseRowTotal>
+                  <baseRowTotalInclTax>100</baseRowTotalInclTax>
+                  <baseTaxAmount>0</baseTaxAmount>
+                  <baseTaxInvoiced>0</baseTaxInvoiced>
+                  <createdAt>2019-11-08 12:39:44</createdAt>
+                  <discountAmount>0</discountAmount>
+                  <discountInvoiced>0</discountInvoiced>
+                  <discountPercent>0</discountPercent>
+                  <freeShipping>0</freeShipping>
+                  <discountTaxCompensationAmount>0</discountTaxCompensationAmount>
+                  <discountTaxCompensationCanceled>0</discountTaxCompensationCanceled>
+                  <isQtyDecimal>0</isQtyDecimal>
+                  <isVirtual>0</isVirtual>
+                  <itemId>1</itemId>
+                  <name>MacBook Air</name>
+                  <noDiscount>0</noDiscount>
+                  <orderId>1</orderId>
+                  <originalPrice>100</originalPrice>
+                  <price>100</price>
+                  <priceInclTax>100</priceInclTax>
+                  <productId>5</productId>
+                  <productType>simple</productType>
+                  <qtyCanceled>1</qtyCanceled>
+                  <qtyInvoiced>0</qtyInvoiced>
+                  <qtyOrdered>1</qtyOrdered>
+                  <qtyRefunded>0</qtyRefunded>
+                  <qtyShipped>0</qtyShipped>
+                  <quoteItemId>3</quoteItemId>
+                  <rowInvoiced>0</rowInvoiced>
+                  <rowTotal>100</rowTotal>
+                  <rowTotalInclTax>100</rowTotalInclTax>
+                  <rowWeight>0</rowWeight>
+                  <sku>SKU00001</sku>
+                  <storeId>1</storeId>
+                  <taxAmount>0</taxAmount>
+                  <taxCanceled>0</taxCanceled>
+                  <taxInvoiced>0</taxInvoiced>
+                  <taxPercent>0</taxPercent>
+                  <updatedAt>2019-11-24 10:32:56</updatedAt>
+               </item>
+            </items>
+            <billingAddress>
+               <addressType>billing</addressType>
+               <city>Bengaluru</city>
+               <countryId>IN</countryId>
+               <customerAddressId>3</customerAddressId>
+               <email>mohankrishna176@gmail.com</email>
+               <entityId>2</entityId>
+               <firstname>Krishna</firstname>
+               <lastname>Mohan</lastname>
+               <parentId>1</parentId>
+               <postcode>560023</postcode>
+               <region>Karnataka</region>
+               <regionCode>KA</regionCode>
+               <regionId>549</regionId>
+               <street>
+                  <item>#55, 1 st Main Road</item>
+               </street>
+               <telephone>+91 9876543210</telephone>
+            </billingAddress>
+            <payment>
+               <accountStatus/>
+               <additionalInformation>
+                  <item>Check / Money order</item>
+               </additionalInformation>
+               <amountOrdered>105</amountOrdered>
+               <baseAmountOrdered>105</baseAmountOrdered>
+               <baseShippingAmount>5</baseShippingAmount>
+               <ccExpYear>0</ccExpYear>
+               <ccLast4/>
+               <ccSsStartMonth>0</ccSsStartMonth>
+               <ccSsStartYear>0</ccSsStartYear>
+               <entityId>1</entityId>
+               <method>checkmo</method>
+               <parentId>1</parentId>
+               <shippingAmount>5</shippingAmount>
+            </payment>
+            <statusHistories/>
+            <extensionAttributes>
+               <shippingAssignments>
+                  <item>
+                     <shipping>
+                        <address>
+                           <addressType>shipping</addressType>
+                           <city>Bengaluru</city>
+                           <countryId>IN</countryId>
+                           <email>mohankrishna176@gmail.com</email>
+                           <entityId>1</entityId>
+                           <firstname>Krishna</firstname>
+                           <lastname>Mohan</lastname>
+                           <parentId>1</parentId>
+                           <postcode>560023</postcode>
+                           <region>Karnataka</region>
+                           <regionCode>KA</regionCode>
+                           <regionId>549</regionId>
+                           <street>
+                              <item>#55, 1 st Main Road</item>
+                           </street>
+                           <telephone>+91 9876543210</telephone>
+                        </address>
+                        <method>flatrate_flatrate</method>
+                        <total>
+                           <baseShippingAmount>5</baseShippingAmount>
+                           <baseShippingCanceled>5</baseShippingCanceled>
+                           <baseShippingDiscountAmount>0</baseShippingDiscountAmount>
+                           <baseShippingDiscountTaxCompensationAmnt>0</baseShippingDiscountTaxCompensationAmnt>
+                           <baseShippingInclTax>5</baseShippingInclTax>
+                           <baseShippingTaxAmount>0</baseShippingTaxAmount>
+                           <shippingAmount>5</shippingAmount>
+                           <shippingCanceled>5</shippingCanceled>
+                           <shippingDiscountAmount>0</shippingDiscountAmount>
+                           <shippingDiscountTaxCompensationAmount>0</shippingDiscountTaxCompensationAmount>
+                           <shippingInclTax>5</shippingInclTax>
+                           <shippingTaxAmount>0</shippingTaxAmount>
+                        </total>
+                     </shipping>
+                     <items>
+                        <item>
+                           <amountRefunded>0</amountRefunded>
+                           <baseAmountRefunded>0</baseAmountRefunded>
+                           <baseDiscountAmount>0</baseDiscountAmount>
+                           <baseDiscountInvoiced>0</baseDiscountInvoiced>
+                           <baseDiscountTaxCompensationAmount>0</baseDiscountTaxCompensationAmount>
+                           <baseOriginalPrice>100</baseOriginalPrice>
+                           <basePrice>100</basePrice>
+                           <basePriceInclTax>100</basePriceInclTax>
+                           <baseRowInvoiced>0</baseRowInvoiced>
+                           <baseRowTotal>100</baseRowTotal>
+                           <baseRowTotalInclTax>100</baseRowTotalInclTax>
+                           <baseTaxAmount>0</baseTaxAmount>
+                           <baseTaxInvoiced>0</baseTaxInvoiced>
+                           <createdAt>2019-11-08 12:39:44</createdAt>
+                           <discountAmount>0</discountAmount>
+                           <discountInvoiced>0</discountInvoiced>
+                           <discountPercent>0</discountPercent>
+                           <freeShipping>0</freeShipping>
+                           <discountTaxCompensationAmount>0</discountTaxCompensationAmount>
+                           <discountTaxCompensationCanceled>0</discountTaxCompensationCanceled>
+                           <isQtyDecimal>0</isQtyDecimal>
+                           <isVirtual>0</isVirtual>
+                           <itemId>1</itemId>
+                           <name>MacBook Air</name>
+                           <noDiscount>0</noDiscount>
+                           <orderId>1</orderId>
+                           <originalPrice>100</originalPrice>
+                           <price>100</price>
+                           <priceInclTax>100</priceInclTax>
+                           <productId>5</productId>
+                           <productType>simple</productType>
+                           <qtyCanceled>1</qtyCanceled>
+                           <qtyInvoiced>0</qtyInvoiced>
+                           <qtyOrdered>1</qtyOrdered>
+                           <qtyRefunded>0</qtyRefunded>
+                           <qtyShipped>0</qtyShipped>
+                           <quoteItemId>3</quoteItemId>
+                           <rowInvoiced>0</rowInvoiced>
+                           <rowTotal>100</rowTotal>
+                           <rowTotalInclTax>100</rowTotalInclTax>
+                           <rowWeight>0</rowWeight>
+                           <sku>SKU00001</sku>
+                           <storeId>1</storeId>
+                           <taxAmount>0</taxAmount>
+                           <taxCanceled>0</taxCanceled>
+                           <taxInvoiced>0</taxInvoiced>
+                           <taxPercent>0</taxPercent>
+                           <updatedAt>2019-11-24 10:32:56</updatedAt>
+                        </item>
+                     </items>
+                  </item>
+               </shippingAssignments>
+               <paymentAdditionalInfo>
+                  <item>
+                     <key>method_title</key>
+                     <value>Check / Money order</value>
+                  </item>
+               </paymentAdditionalInfo>
+               <appliedTaxes/>
+               <itemAppliedTaxes/>
+            </extensionAttributes>
+         </result>
+      </ns1:salesOrderRepositoryV1GetResponse>
+   </env:Body>
+</env:Envelope>
+2020-08-07 11:50:30,865 INFO  [log] 1
+2020-08-07 11:50:30,866 INFO  [SoapUITestCaseRunner] running step [GetOrderStatus]
+2020-08-07 11:50:31,665 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:31,666 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase - Property&Groovy], time taken: 1746ms, status: FINISHED
+2020-08-07 11:50:31,666 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase  - PropertyTransfer]
+2020-08-07 11:50:31,669 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:31,669 INFO  [SoapUITestCaseRunner] running step [Property Transfer - CancelOrderByID]
+2020-08-07 11:50:31,673 INFO  [SoapUITestCaseRunner] running step [CancelOrderByID]
+2020-08-07 11:50:32,502 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:32,502 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase  - PropertyTransfer], time taken: 832ms, status: FINISHED
+2020-08-07 11:50:32,503 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase  - PropertyExpansion]
+2020-08-07 11:50:32,503 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:32,503 INFO  [SoapUITestCaseRunner] running step [CancelOrderByID]
+2020-08-07 11:50:33,404 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:33,404 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase  - PropertyExpansion], time taken: 900ms, status: FINISHED
+2020-08-07 11:50:33,405 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase  - Property&Groovy]
+2020-08-07 11:50:33,405 INFO  [SoapUITestCaseRunner] running step [Groovy Script - Transfer]
+2020-08-07 11:50:33,417 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-08-07 11:50:33,418 INFO  [SoapUITestCaseRunner] running step [CancelOrderByID]
+2020-08-07 11:50:34,183 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-08-07 11:50:34,183 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase  - Property&Groovy], time taken: 776ms, status: FINISHED
+2020-08-07 11:50:34,184 INFO  [SoapUITestCaseRunner] Project [SalesOrderProject] finished with status [FINISHED] in 19324ms
